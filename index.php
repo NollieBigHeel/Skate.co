@@ -117,12 +117,6 @@
  
     </div>
    
+<?php include 'inc/footer.php';?>
 
 
-
-
-</main>
-
-
-</body>
-</html>
