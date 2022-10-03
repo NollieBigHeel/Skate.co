@@ -1,0 +1,196 @@
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*---=== nav/header ===---*/
+
+nav {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    width: 100%;
+    background-color: bisque;
+    border: 1px solid black; 
+}
+
+.logo{
+    max-width: 100px;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+
+}
+.nav-links{
+    width: 100%;
+} 
+
+.nav-links li{
+    padding-right: 50px;
+    transition: 0.5s;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+}
+.nav-links li :hover{
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+/*---=== Main Content ===---*/
+
+main{
+    
+}
+
+/*---=== header ===---*/
+.container-head{
+    background-color: white;
+    background-image: linear-gradient( rgba(255, 255, 255, 0.5), rgba(140, 237, 239, 0.5) ), url("../img/2riversmeetskatepark.jpg");
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    color: red;
+    
+}
+
+.container-head .title{
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.container-head .title h1{
+    padding-bottom: 50px;
+    font-size: 50px;
+}
+.container-head .title p{
+    text-align: start;
+    
+}
+
+/*---=== Our services ===---*/
+
+.container-services{
+    background-color: antiquewhite;
+    
+    
+}
+
+.container-services h2{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 45px;
+}
+
+.container-services ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-bottom: 100px;
+}
+
+.container-services ul li{
+    max-width: 200px;
+    background-color: aqua;
+    border-radius: 15%;
+    padding: 20px 20px 20px 20px;
+    
+}
+
+.container-services ul li h3{
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+/*---=== why us ===---*/
+
+.container-whyus {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.container-whyus img{
+    max-width: 250px;
+    border-radius: 10px;
+    
+}
+
+.whyus {
+    padding-top: 25px;
+    max-width: 250px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.whyus h2{
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+   
+
+}
+
+.whyus p {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+
+}
+
+/*---=== Feed back ===---*/
+.container-form {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    flex-flow: column wrap;
+    align-content: center;
+    background-color: bisque;
+    
+   
+}
+
+.container-form h2 {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.container-form p {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.container-form .enter {
+    display: flex;
+    flex-flow: column wrap;
+    padding-bottom: 10px;
+    min-width: 300px;
+    
+}
+
+
